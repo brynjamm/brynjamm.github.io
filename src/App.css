@@ -1,11 +1,13 @@
 .Header {
   background-color: #282c34;
   min-height: 50px;
-  width: 50%;
-  position: absolute;
+  width: 100vw;
+  position: relative;
   flex-direction: column;
+  color: white;
   align-items: center;
   justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
 }
 
